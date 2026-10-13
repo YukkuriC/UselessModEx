@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.yukkuric.useless_mod_ex.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AlloyFurnaceRecipeCalculatorMoldMixin",
+    "AlloyFurnaceRecipeManagerMoldMixin",
+    "CraftingTaskContextMoldMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
