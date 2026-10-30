@@ -6,7 +6,8 @@
   "mixins": [
     "AlloyFurnaceRecipeCalculatorMoldMixin",
     "AlloyFurnaceRecipeManagerMoldMixin",
-    "CraftingTaskContextMoldMixin"
+    "CraftingTaskContextMoldMixin",
+    "OmniversalAlloyFurnaceStructureAirMixin"
   ],
   "client": [
   ],
