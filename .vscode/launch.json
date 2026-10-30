@@ -1,0 +1,93 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - UselessModEx",
+        "order": 0
+      },
+      "projectName": "UselessModEx",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\Projects\\Java\\AE2\\UselessModEx\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\Projects\\Java\\AE2\\UselessModEx\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003duseless_mod_ex%%D:\\Projects\\Java\\AE2\\UselessModEx\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Data",
+      "presentation": {
+        "group": "Mod Development - UselessModEx",
+        "order": 1
+      },
+      "projectName": "UselessModEx",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\Projects\\Java\\AE2\\UselessModEx\\build\\moddev\\dataRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\Projects\\Java\\AE2\\UselessModEx\\build\\moddev\\dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003duseless_mod_ex%%D:\\Projects\\Java\\AE2\\UselessModEx\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "GameTestServer",
+      "presentation": {
+        "group": "Mod Development - UselessModEx",
+        "order": 2
+      },
+      "projectName": "UselessModEx",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\Projects\\Java\\AE2\\UselessModEx\\build\\moddev\\gameTestServerRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\Projects\\Java\\AE2\\UselessModEx\\build\\moddev\\gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003duseless_mod_ex%%D:\\Projects\\Java\\AE2\\UselessModEx\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - UselessModEx",
+        "order": 3
+      },
+      "projectName": "UselessModEx",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\Projects\\Java\\AE2\\UselessModEx\\build\\moddev\\serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\Projects\\Java\\AE2\\UselessModEx\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003duseless_mod_ex%%D:\\Projects\\Java\\AE2\\UselessModEx\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}
